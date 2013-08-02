@@ -1,0 +1,16 @@
+-main ApplicationMain 
+-lib openfl
+-lib flixel-dev
+-lib flixel-addons
+-cp source
+-cp /usr/lib/haxe/lib/openfl/1,0,5/
+-cp /usr/lib/haxe/lib/flixel-dev/git/
+-D tools=1
+-D openfl_ver=1.0.6
+-D openfl
+-D web
+-swf-version 11.2
+-swf export/flash/bin/mutate-or-die.swf
+-swf-header 400:400:60:FFFFFF
+-cp export/flash/haxe
+#--remap nme:flash

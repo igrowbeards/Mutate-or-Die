@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/justinedwards/projects/games/haxeflixel_new/mutate-or-die"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/usr/lib/haxe/std"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/usr/lib/haxe/lib/flixel/2,0,0-alpha,3/"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/usr/lib/haxe/lib/flixel-addons/git/"
+		}
+	]
+}

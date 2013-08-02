@@ -1,0 +1,22 @@
+-main ApplicationMain 
+-lib openfl
+-lib openfl-html5
+-lib flixel-dev
+-lib flixel-addons
+-cp source
+-cp /usr/lib/haxe/lib/openfl/1,0,5/
+-cp /usr/lib/haxe/lib/openfl-html5/1,0,4/
+-cp /usr/lib/haxe/lib/flixel-dev/git/
+-D tools=1
+-D openfl_ver=1.0.6
+-D openfl
+-D html5
+-D web
+-resource /usr/lib/haxe/lib/flixel-dev/git/assets/fonts/arial.ttf.hash@NME_fonts_arial_ttf
+-resource /usr/lib/haxe/lib/flixel-dev/git/assets/fonts/nokiafc22.ttf.hash@NME_fonts_nokiafc22_ttf
+-js export/html5/bin/mutate-or-die.js
+-cp export/html5/haxe
+-D html5
+-D html
+--remap flash:flash
+-debug
